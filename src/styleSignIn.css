@@ -1,0 +1,233 @@
+body {
+  background: rgb(15, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 0, 0, 1) 7%,
+    rgba(74, 0, 19, 1) 28%,
+    rgba(13, 0, 91, 1) 100%
+  );
+  margin: 0;
+}
+p,
+a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: unset;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+  font-family: Rubik Doodle Shadow;
+}
+header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  backdrop-filter: blur(400px);
+}
+.logo_andP {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.logo_svg {
+  width: 30px;
+  height: 40px;
+}
+.sign_in {
+  width: 130px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: transparent;
+  color: white;
+}
+.links {
+  display: flex;
+  gap: 15px;
+}
+.account {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* my part */
+.main{
+	font-family: Rubik Doodle Shadow;
+	font-size: 32px;
+	font-weight: 900;
+	text-align: center;
+}
+.h1_div{
+	margin-top: 50px;
+	height: 150px;
+
+	background-color: transparent;
+	backdrop-filter: blur(400px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.reg{
+  max-width: 50px;
+}
+.column{
+  background-color: #1A162A;
+  width: 100px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  margin-top: 110px;
+  border-radius: 10px;
+}
+.register{
+  text-align: center;
+}
+.reg_p{
+  font-size: 19px;
+}
+.register{
+  cursor: pointer;
+}
+.sign_in_2{
+  cursor: pointer;
+}
+.input_main{
+  display: flex;
+}
+.sign_in_2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input_sign_up{
+  position: absolute;
+  left: 80%;
+  margin-top: 50px;
+  opacity: 0;
+  transition: all 1s;
+}
+.form-box {
+  max-width: 300px;
+  background: transparent;
+  backdrop-filter: blur(1000px);
+  overflow: hidden;
+  border-radius: 16px;
+  color: white;
+  font-family: Rubik Doodle Shadow;
+  border: 3px white solid;
+}
+
+.form, .form_2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+
+/*Form text*/
+.title, .title_2 {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.subtitle, .subtitle_2 {
+  font-size: 1rem;
+  color: white;
+}
+
+/*Inputs box*/
+.form-container, .form-container_2 {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 1rem 0 .5rem;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.input, .input_2 {
+  background: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  font-size: .9rem;
+  padding: 8px 15px;
+}
+
+/*Button*/
+.form button, .sign_in_button {
+  background-color: #0066ff;
+  color: #fff;
+  border: 0;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.form button:hover, .sign_in_button {
+  background-color: #005ce6;
+}
+.active{
+  left: 40%;
+  transition: all 1s;
+  opacity: 1;
+}
+.form-box-pt2{
+  margin-top: 0px;
+  max-width: 300px;
+  background: transparent;
+  backdrop-filter: blur(1000px);
+  overflow: hidden;
+  border-radius: 16px;
+  color: white;
+  font-family: Rubik Doodle Shadow;
+  border: 3px white solid;
+
+}
+.sign_in_block{
+  position: absolute;
+  left: 80%;
+  margin-top: 50px;
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.active{
+  left: 40%;
+  transition: all 1s;
+  opacity: 1;
+}
+.error, .error_2{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: red;
+  opacity: 0;
+  transition: 0.8s linear all;
+}
+.error_show,.error_show_2{
+  opacity: 1;
+  transition: 0.8s linear all;
+}

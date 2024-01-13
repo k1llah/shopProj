@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./src/styleSignIn.css">
+	<title>Thunder Sign In</title>
+</head>
+
+<body>
+	<header>
+		<div class="logo_andP">
+
+			<svg class="logo_svg" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+				<path fill="#f5ec00"
+					d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z" />
+			</svg>
+			<h1 class="logo">
+				Thunder Shop
+			</h1>
+		</div>
+		<div class="links">
+			<a href="" class="nav">Главная</a>
+			<a href="./katalog.html" class="nav">Каталог</a>
+			<a href="" class="nav">Программа лояльности</a>
+			<a href="" class="nav">Контакты</a>
+		</div>
+		<div class="account">
+			<a href="#" class="favourites">❤️ Закладки</a>
+			<a href="shoppingCart.html" class="favourites">🛒 Корзина</a>
+			<a href="./signIn.html" class="link_button">
+				<button class="sign_in">Войти в аккаунт</button>
+			</a>
+		</div>
+	</header>
+
+	<section>
+		<div class="container">
+			<div class="h1_div">
+				<h1 class="main">Вы можете Войти или Зарегестрироваться на нашем сайте</h1>
+
+			</div>
+			<div class="input_main">
+				<div class="column">
+					<div class="register">
+						<p class="reg_p">Регистрация</p> <img src="free-icon-registration-2080887.png" alt="" class="reg">
+					</div>
+					<div class="sign_in_2">
+						<p class="reg_p">Вход</p> <img src="free-icon-log-in-3596083.png" alt="" class="reg ">
+					</div>
+				</div>
+				<div class="input_sign_up">
+					<div class="form-box">
+						<form class="form">
+							<span class="title">Sign up</span>
+							<span class="subtitle">Create a free account with your email.</span>
+							<div class="form-container">
+								<input type="fullName" name="fullName" class="input" placeholder="Full Name">
+								<input type="email" name="email" class="input" placeholder="Email">
+								<input type="password" name="password" class="input" placeholder="Password" minlength="6">
+							</div>
+							<p class="error">Такой пользователь уже существует</p>
+							<button>Sign up</button>
+						</form>
+
+					</div>
+				</div>
+				<div class="sign_in_block">
+					<div class="form-box-pt2">
+						<form class="form_2">
+							<span class="title_2">Sign in</span>
+							<span class="subtitle_2">Sign In into your existing account.</span>
+							<div class="form-container_2">
+								<input type="text" name="full_Name" class="input_2" placeholder="Full Name">
+								<input type="password" name="Pass" class="input_2" placeholder="Password">
+							</div>
+							<p class="error_2">Неверный логин или пароль</p>
+							<button type="button" class="sign_in_button">Sign In</button>
+						</form>
+					</div>
+				</div>
+	</section>
+
+
+
+
+
+	<script type="module" src="/src/register_signIn.ts"></script>
+</body>
+
+</html>
