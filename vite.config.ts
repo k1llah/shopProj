@@ -1,6 +1,6 @@
 import { resolve } from 'path'
 export default {
-    base: '/benzxProj3ct/',
+    base: '/shopProj/',
     build: {
         rollupOptions: {
           input: {
