@@ -39,3 +39,121 @@ header {
   width: 30px;
   height: 40px;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.logo_p {
+  color: white;
+}
+select {
+  padding: 3px;
+  font-weight: 600;
+  width: 130px;
+  height: 30px;
+  border-radius: 5px;
+}
+label {
+  color: white;
+}
+.links {
+  display: flex;
+  gap: 15px;
+}
+.nav {
+  font-size: 17px;
+}
+.account {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.sign_in {
+  width: 130px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: transparent;
+  color: white;
+}
+
+/*CARDS_DIV*/
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  background-color: transparent;
+}
+.filter_div {
+  display: flex;
+  gap: 40px;
+}
+.all {
+  font-size: 35px;
+}
+.add_button {
+  width: 40px;
+  height: 40px;
+  color: black;
+  background-color: transparent;
+  border: 3px solid grey;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.add_button:hover {
+  transform: rotate(360deg);
+  transition: 0.9s;
+}
+.card_wrapper {
+  width: 20%;
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px;
+  border: 3px black solid;
+  background-color: white;
+  border-radius: 20px;
+}
+.img_card {
+  width: 230px;
+  margin: auto;
+}
+.items {
+  display: flex;
+  gap: 10px;
+  width: 1200px;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.coast_p,
+.priceP,
+.name_card {
+  color: black;
+}
+.name_card {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.coast_p,
+.priceP {
+  font-size: 18px;
+}
+
+.div_bottom_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cont_2 {
+  backdrop-filter: blur(800px);
+  border-radius: 45px;
+  -webkit-box-shadow: -13px 22px 37px 5px rgba(7, 5, 7, 0.78);
+  -moz-box-shadow: -13px 22px 37px 5px rgba(7, 5, 7, 0.78);
+  box-shadow: -13px 22px 37px 5px rgba(7, 5, 7, 0.78);
+}
